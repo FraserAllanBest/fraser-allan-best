@@ -10,53 +10,70 @@
 .tinted-image {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  font-size: 5rem;
+  font-size: 11vh;
   width: 100%;
-  height: 6rem;
+  height: 13vh;
   
   background: 
     linear-gradient(
       rgba(248, 189, 35, 0.75), 
       rgba(248, 189, 35, 0.75)
     ),
-    url(https://lh3.googleusercontent.com/pgi8oiVXy-Sg5dtXJCpCKkD2LMirzhWRbOOHhd4OfyXtjbJd0k9beDAd_-011KtAJ32_NOH1AAKbiSwFbuBVLNz5yfdQRo7JkOYPNHNKyxltvjLmu_fRphUwQOlQmg_7LbnbFCfd0YK3oSW5wyqnZeYUNr1T2_jtab7I4dcqxwoyX1eGm7EyZpsRd1zjfHmOeCyqX0cZt1EULFcxU6wBwMUKWxQ88u-hGPY-COUn1PeX_y8NHdryuFBJa6HDG7KVtV0QGcAhkujGr53-z2SSDm2YHsSVPbSyvjYU40VOE8Ocibj6mYLi5vBwJk_hL5aexLVqUyIXUJGQ02MX2Cj67llDArCHNixuhuY2aKPEGdKjh6aEhhPeokKM9CrFlviNGuwN2P3hWWLyBDjU7ElRQvgRZ9UtfDC1U6PpHJRufWkGkPSxwIB0ED4sPij-7QrtUcASu6TiOgAU3nlbeYlN0CpC8ncBaOoZGb4iEfcrxeFdV5K51VlHh9s4tGlBuvLoHyrRcJi-_tBRS5jFSnF2PI9sUHbu4g6beDwU1z3KjDDP=w942-h706-no);
+    url(http://bit.ly/25qNIVC);
 }
 
 .top-bar 			{
 	background-color: #F8BD23;
-	height: 3rem;
+	height: 7vh;
 	width: 100%;
 	text-align: center;
 	font-family: Raleway;
+	font-size: 3vh;
 	line-height: 3rem;
-	margin-top: 0.05rem;
 }
 
-
-.stuck				{
-	position: fixed;
-	top: 0rem;
+#slit				{
+	height: 0.05rem;
+	background-color: #fad36d;
 }
 
 .side-bar			{
 	background-color: #fad36d;
-	height: 100rem;
+	height: 0rem;
 	width: 20vw;
-	float: left;
 	display: inline-block;
+}
+
+.stuck				{
+	position: fixed;
+	top: -0.1rem;
+}
+
+.side-bar-stuck		{
+	top: 6.8vh;
+	float: left;
 }
 
 .side-cell			{
 	background-color: #f7c43d;
-	height: auto;
+	height: 26vh;
 	border-color: #fad36d;
-	border-width: 0.1rem;
+	border-width: 0.1vh;
 	border-style: solid;
 	font-family: 'Quicksand', sans-serif;
-	padding: 0.25vw;
+	padding: 3rem;
 	transition: background-color 0.5s;
 	color: black;
 	text-decoration: none;
+}
+
+.side-cell > p {
+	display: block;
+	text-align: center;
+}
+
+#top-side-cell	{
+	border-top-width: 0.4vh;
 }
 
 a:link				{
@@ -93,7 +110,7 @@ a:link				{
 .article-pane	{
 	background-color: white;
 	height: 100%;
-	width: 80%;
+	width: 80vw;
 	margin-left: 20%;
 	margin-top: 3rem;
 	font-family: 'Playfair Display', serif;
